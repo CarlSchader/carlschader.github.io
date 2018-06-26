@@ -46,3 +46,9 @@ nav div.container-fluid nav a
 {
 	margin: 10px;
 }
+
+div#content-body div.card
+{
+	float: none;
+	margin: 10px;
+}
