@@ -1,6 +1,6 @@
 body
 {
-	background: rgb(200, 236, 247);
+	background: #e2edff;
 	font-family: arial;
 }
 
@@ -49,6 +49,9 @@ nav div.container-fluid nav a
 
 div#content-body div.card
 {
-	float: none;
-	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px 2px #999999;
+	color: #777777;
+	margin: 0 0 0 25%;
+
 }
