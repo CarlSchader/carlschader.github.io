@@ -43,6 +43,7 @@ nav div.container-fluid nav a
 	border-radius: 5px;
 	box-shadow: 2px 2px 2px 2px #999999;
 	margin: 0 5px 0 5px;
+	width: 15%;
 }
 
 nav div.container-fluid nav a:hover
