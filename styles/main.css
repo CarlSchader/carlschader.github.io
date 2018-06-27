@@ -34,7 +34,9 @@ header div.container-fluid h3 span
 
 nav div.container-fluid
 {
+	float: right;
 	margin: 20px 0 0 0;
+	width: 50%;
 }
 
 nav div.container-fluid nav a
@@ -43,7 +45,6 @@ nav div.container-fluid nav a
 	border-radius: 5px;
 	box-shadow: 2px 2px 2px 2px #999999;
 	margin: 0 5px 0 5px;
-	width: 20%;
 }
 
 nav div.container-fluid nav a:hover
@@ -74,5 +75,5 @@ div#content-body div.card
 	box-shadow: 2px 2px 2px 2px #999999;
 	color: #777777;
 	float: left;
-	margin: 2.5%;
+	margin: 10% 2.5% 2.5% 2.5%;
 }
