@@ -1,7 +1,16 @@
 body
 {
-	background: #e2edff;
+	background: #d1efff;
 	font-family: arial;
+}
+
+#top-of-page
+{
+	position: fixed;
+	padding-bottom: 5px;
+	top: 0;
+	width: 100%;
+	z-index: 1;
 }
 
 header div.container-fluid
@@ -36,6 +45,12 @@ nav div.container-fluid nav a
 	margin: 0 5px 0 5px;
 }
 
+nav div.container-fluid nav a:hover
+{
+	background: #87d7ff;
+	color: black;
+}
+
 .dropdown-menu
 {
 	background: transparent;
@@ -47,11 +62,15 @@ nav div.container-fluid nav a
 	margin: 10px;
 }
 
+div#content-body
+{
+	margin: 20px 10% 0 10%;
+}
+
 div#content-body div.card
 {
 	border-radius: 5px;
 	box-shadow: 2px 2px 2px 2px #999999;
 	color: #777777;
-	margin: 0 0 0 25%;
-
+	margin-top: 10%; 
 }
