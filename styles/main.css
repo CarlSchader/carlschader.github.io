@@ -69,11 +69,16 @@ div#content-body
 	margin: 10% 5% 0 5%;
 }
 
+#alert
+{
+	margin-top: 12%;
+}
+
 div#content-body div.card
 {
 	border-radius: 5px;
 	box-shadow: 2px 2px 2px 2px #999999;
 	color: #777777;
 	float: left;
-	margin: 10% 2.5% 2.5% 2.5%;
+	margin: 5% 2.5% 2.5% 2.5%;
 }

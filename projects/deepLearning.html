@@ -12,6 +12,8 @@
     <title>Carl Schader</title>
   </head>
   <body>
+
+  	<div id="top-of-page">
   	<header>
 	  	<div id="pageHeader" class="container-fluid">
 	  		<h3>Carl Schader<span class="badge badge-secondary">Deep Learning</span></h3>
@@ -36,6 +38,45 @@
 				</nav>
 			</div>
 		</nav>
+	</div>
+
+		<!-- Content Start -->
+
+		<div id="content-body" class="container-fluid">
+
+			<div class="card" style="width: 75%;">
+				<div class="card-header">
+				    FlexNet
+				</div>
+			  <img class="card-img-top" src="../photos/flexNet.png" alt="FlexNet Image">
+			  <div class="card-body">
+			    <h5 class="card-title">Description</h5>
+			    <p class="card-text">FlexNet is my most recent framework for creating flexible generalized neural networks for deep learning. It allows the programmer to create a net object whose constructor allows them to specify the number of layers, node count of each layer, type of neural network, what type of activation functions are used, and the learning rate. The networks created by FlexNet are completely vectorized and extremely performant compared to my last project Neuron. The framework is also very user friendly allowing programmers to quickly create neural networks without any knowledge of the math behind the scenes. forward propogation and backpropogation are methods on the object. Just pass in your entire data set and begin!</p>
+			  </div>
+			  <div class="card-body">
+			  	<h5 class="card-title">Code</h5>
+			  	<p class="card-text">FlexNet was built for Python 3 using numpy for the necessary linear algebra to create neural networks. Check out the code on github: </p>
+			  	<a href="#" class="btn btn-primary">Github Link</a>
+			  </div>
+			</div>
+			
+			<div class="card" style="width: 75%;">
+				<div class="card-header">
+				    Neuron
+				</div>
+			  <img class="card-img-top" src="../photos/neuron.png" alt="Neuron Software Image">
+			  <div class="card-body">
+			    <h5 class="card-title">Description</h5>
+			    <p class="card-text">Neuron is my first attempt at creating a library to generalize the creation of neural networks for deep learning. It allows the programmer using the framework to create a neuralNet object with as many layers of any size they want, allowing them to easily train/test their networks and save/load them too. Creating this framework was how I taught myself the mathematics behind deep learning and how to implement it in code in a generalized way. Neuron is not intuitive to use for someone without documentation. The math and code is also not fully vectorized and uses sigmoid functions as the only activation function (which is considered a poor activation function). I recommend using my newer and much faster vectorized framework flexNet which can be found above.</p>
+			  </div>
+			  <div class="card-body">
+			  	<h5 class="card-title">Code</h5>
+			  	<p class="card-text">Neuron was initially written for Python 1 but has been updated to work with Python 3. The program uses the numpy library for linear algebra to make the vectorized math portions significantly smoother. Check out the full code on github: </p>
+			  	<a href="#" class="btn btn-primary">Github Link</a>
+			  </div>
+			</div>
+
+		</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
