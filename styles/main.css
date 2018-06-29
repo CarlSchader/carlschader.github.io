@@ -36,7 +36,7 @@ nav div.container-fluid
 {
 	float: right;
 	margin: 20px 0 0 0;
-	width: 50%;
+	width: 60%;
 }
 
 nav div.container-fluid nav a
@@ -81,4 +81,19 @@ div#content-body div.card
 	color: #777777;
 	float: left;
 	margin: 5% 2.5% 2.5% 2.5%;
+}
+
+#resume
+{
+	font-size: 14px;
+}
+
+#resume-contact-info
+{
+	float: right;
+}
+
+.experience-subject
+{
+	text-decoration: underline;
 }
