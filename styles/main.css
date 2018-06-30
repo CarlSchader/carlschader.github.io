@@ -80,7 +80,12 @@ div#content-body div.card
 	box-shadow: 2px 2px 2px 2px #999999;
 	color: #777777;
 	float: left;
-	margin: 5% 2.5% 2.5% 2.5%;
+	margin: 7px 2.5% 7px 2.5%;
+}
+
+.citation
+{
+	font-size: 10px;
 }
 
 #resume
