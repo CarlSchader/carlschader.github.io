@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Character Sheets</title>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    
+	<link rel="stylesheet" type="text/css" href="CharacterSheets.css">
+</head>
+<body>
+	<div id="CharacterSheet-card" class="card border-danger bg-secondary" style="width: 1200px">
+			<div class="card-header text-light bg-danger">
+				    D&D Character Sheet Builder
+			</div>
+			<div class="card-body">
+				<ul class="list-group list-group-flush" id="CharacterSheets-cardList">
+			    <li class="list-group-item bg-secondary" id="characterSheets-name">
+			    	<span class="badge badge-light mb-3 p-3">
+					  Character Name and Class <span id="characterSheets-nameCounter" class="badge badge-danger">7</span>
+					</span>
+
+			    	<div class="d-flex flex-row">
+				    	<div class="input-group mb-3 px-1" style="width: 300px">
+						  <div class="input-group-prepend">
+						    <span class="input-group-text bg-dark text-light" id="inputGroup-sizing-small">Character Name</span>
+						  </div>
+						  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="characterSheets-characterName">
+						</div>
+
+						<div class="input-group mb-3 px-1" style="width: 200px">
+						  <div class="input-group-prepend">
+						    <span class="input-group-text bg-dark text-light" id="inputGroup-sizing-small">Class</span>
+						  </div>
+						  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="characterSheets-characterName">
+						</div>
+
+						<div class="input-group mb-3 px-1" style="width: 125px">
+						  <div class="input-group-prepend">
+						    <span class="input-group-text bg-dark text-light" id="inputGroup-sizing-small">Level</span>
+						  </div>
+						  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="characterSheets-characterName">
+						</div>
+
+						<div class="input-group mb-3 px-1" style="width: 250px">
+						  <div class="input-group-prepend">
+						    <span class="input-group-text bg-dark text-light" id="inputGroup-sizing-small">Background</span>
+						  </div>
+						  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="characterSheets-characterName">
+						</div>
+
+						<div class="input-group mb-3 px-1" style="width: 300px">
+						  <div class="input-group-prepend">
+						    <span class="input-group-text bg-dark text-light" id="inputGroup-sizing-small">Player Name</span>
+						  </div>
+						  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="characterSheets-characterName">
+						</div>
+					</div>
+
+					<div class="d-flex flex-row">
+						<div class="input-group mb-3 px-1" style="width: 200px">
+						  <div class="input-group-prepend">
+						    <span class="input-group-text bg-dark text-light" id="inputGroup-sizing-small">Race</span>
+						  </div>
+						  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="characterSheets-characterName">
+						</div>
+
+						<div class="input-group mb-3 px-1" style="width: 200px">
+						  <div class="input-group-prepend">
+						    <span class="input-group-text bg-dark text-light" id="inputGroup-sizing-small">Alignment</span>
+						  </div>
+						  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="characterSheets-characterName">
+						</div>
+					</div>
+
+
+			    </li>
+			    <li class="list-group-item bg-secondary" id="characterSheets-stats">
+			    	<span class="badge badge-light mb-3 p-3">
+					  Stats <span id="characterSheets-statsCounter" class="badge badge-danger">6</span>
+					</span>
+			    	
+			    	<div class="d-flex flex-row">
+			    		<div class="input-group mb-3 px-1" style="width: 175px">
+						  <div class="input-group-prepend">
+						    <span class="input-group-text bg-dark text-light" id="inputGroup-sizing-small">Strength</span>
+						  </div>
+						  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="characterSheets-characterName">
+						</div>
+
+						<div class="input-group mb-3 px-1" style="width: 175px">
+						  <div class="input-group-prepend">
+						    <span class="input-group-text bg-dark text-light" id="inputGroup-sizing-small">Dexterity</span>
+						  </div>
+						  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="characterSheets-characterName">
+						</div>
+
+						<div class="input-group mb-3 px-1" style="width: 175px">
+						  <div class="input-group-prepend">
+						    <span class="input-group-text bg-dark text-light" id="inputGroup-sizing-small">Constitution</span>
+						  </div>
+						  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="characterSheets-characterName">
+						</div>
+
+						<div class="input-group mb-3 px-1" style="width: 175px">
+						  <div class="input-group-prepend">
+						    <span class="input-group-text bg-dark text-light" id="inputGroup-sizing-small">Intellect</span>
+						  </div>
+						  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="characterSheets-characterName">
+						</div>
+
+						<div class="input-group mb-3 px-1" style="width: 175px">
+						  <div class="input-group-prepend">
+						    <span class="input-group-text bg-dark text-light" id="inputGroup-sizing-small">Wisdom</span>
+						  </div>
+						  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="characterSheets-characterName">
+						</div>
+
+						<div class="input-group mb-3 px-1" style="width: 175px">
+						  <div class="input-group-prepend">
+						    <span class="input-group-text bg-dark text-light" id="inputGroup-sizing-small">Charisma</span>
+						  </div>
+						  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="characterSheets-characterName">
+						</div>
+			    	</div>
+
+			    </li>
+			    <li class="list-group-item bg-secondary" id="characterSheets-stats">
+			    	<span class="badge badge-light mb-3 p-3">
+					  Stats <span id="characterSheets-statsCounter" class="badge badge-danger">6</span>
+					</span>
+
+					<iframe src="characterSheet.pdf" style="width:600px; height:500px;" frameborder="0"></iframe>
+
+				</li>
+			  </ul>
+	</div>
+
+	<script type="text/javascript" src="CharacterSheets.js"></script>
+
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>
