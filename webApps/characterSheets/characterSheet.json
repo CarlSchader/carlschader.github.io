@@ -23,7 +23,7 @@
 					{
 						"fieldName": "Player Name",
 						"fieldSize": "300px"
-					},
+					}
 				],
 				[
 					{
@@ -33,7 +33,7 @@
 					{
 						"fieldName": "Alignment",
 						"fieldSize": "200px"
-					},
+					}
 				]
 			]
 		}
