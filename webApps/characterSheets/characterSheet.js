@@ -12,8 +12,8 @@ xhttp.onreadystatechange = function() {
        		sectionFields = document.getElementById('characterSheets-section' + i)
        		for(var j = 0; j < section[i].row.length; j++)
        		{
-       			sectionFields.innerHTML += '<div id="characterSheets-row' + j + '" class="d-flex flex-row"></div>'
-       			rowFields = document.getElementById('characterSheets-row' + j)
+       			sectionFields.innerHTML += '<div id="characterSheets-row' + i + j + '" class="d-flex flex-row"></div>'
+       			rowFields = document.getElementById('characterSheets-row' + i + j)
        			for(var k = 0; k < section[i].row[j].length; k++)
        			{
        				rowFields.innerHTML += '<div class="input-group mb-3 px-1" style="width: ' + section[i].row[j][k].fieldSize + '"><div class="input-group-prepend"><span class="input-group-text bg-dark text-light" id="inputGroup-sizing-sm">' +  section[i].row[j][k].fieldName + '</span></div><input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">'
@@ -22,5 +22,6 @@ xhttp.onreadystatechange = function() {
        }
     }
 };
+
 xhttp.open("GET", "https://carlschader.github.io/webApps/characterSheets/characterSheet.json", true);
 xhttp.send();

@@ -42,24 +42,26 @@
 			"name": "Stats",
 			"unusedFieldCount": "6",
 			"row": [
-				{
-					"Strength": "125px"
-				},
-				{
-					"Dexterity": "125px"
-				},
-				{
-					"Constitution": "125px"
-				},
-				{
-					"Intelligence": "125px"
-				},
-				{
-					"Wisdom": "125px"
-				},
-				{
-					"Charisma": "125px"
-				}
+				[
+					{
+						"Strength": "125px"
+					},
+					{
+						"Dexterity": "125px"
+					},
+					{
+						"Constitution": "125px"
+					},
+					{
+						"Intelligence": "125px"
+					},
+					{
+						"Wisdom": "125px"
+					},
+					{
+						"Charisma": "125px"
+					}
+				]
 			]
 		}
 	]
