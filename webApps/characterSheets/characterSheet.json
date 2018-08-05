@@ -2,6 +2,7 @@
 	"section": [
 		{
 			"name": "Character Name and Class",
+			"unusedFieldCount": "7",
 			"row": [
 				[
 					{
@@ -35,6 +36,30 @@
 						"fieldSize": "200px"
 					}
 				]
+			]
+		},
+		{
+			"name": "Stats",
+			"unusedFieldCount": "6",
+			"row": [
+				{
+					"Strength": "125px"
+				},
+				{
+					"Dexterity": "125px"
+				},
+				{
+					"Constitution": "125px"
+				},
+				{
+					"Intelligence": "125px"
+				},
+				{
+					"Wisdom": "125px"
+				},
+				{
+					"Charisma": "125px"
+				}
 			]
 		}
 	]
