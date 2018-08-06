@@ -63,6 +63,115 @@
 					}
 				]
 			]
+		},
+		{
+			"name": "Inspiration, Proficiency Bonus, and Passive Wisdom",
+			"unusedFieldCount": "2",
+			"row": [
+				[
+					{
+						"Inspiration": "300px"
+					},
+					{
+						"Proficiency Bonus": "300px"
+					},
+					{
+						"Passive Wisdom": "300px"
+					}
+				]
+			]
+		},
+		{
+			"name": "Saving Throws",
+			"unusedFieldCount": "6",
+			"row": [
+				[
+					{
+						"Strength": "125px"
+					},
+					{
+						"Dexterity": "125px"
+					},
+					{
+						"Constitution": "125px"
+					},
+					{
+						"Intelligence": "125px"
+					},
+					{
+						"Wisdom": "125px"
+					},
+					{
+						"Charisma": "125px"
+					}
+				]
+			]
+		},
+		{
+			"name": "Skills",
+			"unusedFieldCount": "18",
+			"row": [
+				[
+					{
+						"Acrobatics": "125px"
+					},
+					{
+						"Animal Handling": "125px"
+					},
+					{
+						"Arcana": "125px"
+					},
+					{
+						"Athletics": "125px"
+					},
+					{
+						"Deception": "125px"
+					},
+					{
+						"History": "125px"
+					}
+				],
+				[
+					{
+						"Insight": "125px"
+					},
+					{
+						"Intimidation": "125px"
+					},
+					{
+						"Investigation": "125px"
+					},
+					{
+						"Medicine": "125px"
+					},
+					{
+						"Nature": "125px"
+					},
+					{
+						"Perception": "125px"
+					}
+				],
+				[
+					{
+						"Performance": "125px"
+					},
+					{
+						"Persuasion": "125px"
+					},
+					{
+						"Religion": "125px"
+					},
+					{
+						"Sleight of Hand": "125px"
+					},
+					{
+						"Stealth": "125px"
+					},
+					{
+						"Survival": "125px"
+					}
+				]
+			]
 		}
 	]
 }
