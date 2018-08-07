@@ -44,22 +44,28 @@
 			"row": [
 				[
 					{
-						"Strength": "125px"
+						"fieldName": "Strength",
+						"fieldSize": "125px"
 					},
 					{
-						"Dexterity": "125px"
+						"fieldName": "Dexterity",
+						"fieldSize": "125px"
 					},
 					{
-						"Constitution": "125px"
+						"fieldName": "Constitution",
+						"fieldSize": "125px"
 					},
 					{
-						"Intelligence": "125px"
+						"fieldName": "Intelligence",
+						"fieldSize": "125px"
 					},
 					{
-						"Wisdom": "125px"
+						"fieldName": "Wisdom",
+						"fieldSize": "125px"
 					},
 					{
-						"Charisma": "125px"
+						"fieldName": "Charisma",
+						"fieldSize": "125px"
 					}
 				]
 			]
@@ -70,13 +76,16 @@
 			"row": [
 				[
 					{
-						"Inspiration": "300px"
+						"fieldName": "Inspiration",
+						"fieldSize": "300px"
 					},
 					{
-						"Proficiency Bonus": "300px"
+						"fieldName": "Proficiency Bonus",
+						"fieldSize": "300px"
 					},
 					{
-						"Passive Wisdom": "300px"
+						"fieldName": "Passive Wisdom",
+						"fieldSize": "300px"
 					}
 				]
 			]
@@ -87,22 +96,28 @@
 			"row": [
 				[
 					{
-						"Strength": "125px"
+						"fieldName": "Strength",
+						"fieldSize": "125px"
 					},
 					{
-						"Dexterity": "125px"
+						"fieldName": "Dexterity",
+						"fieldSize": "125px"
 					},
 					{
-						"Constitution": "125px"
+						"fieldName": "Constitution",
+						"fieldSize": "125px"
 					},
 					{
-						"Intelligence": "125px"
+						"fieldName": "Intelligence",
+						"fieldSize": "125px"
 					},
 					{
-						"Wisdom": "125px"
+						"fieldName": "Wisdom",
+						"fieldSize": "125px"
 					},
 					{
-						"Charisma": "125px"
+						"fieldName": "Charisma",
+						"fieldSize": "125px"
 					}
 				]
 			]
@@ -113,62 +128,80 @@
 			"row": [
 				[
 					{
-						"Acrobatics": "125px"
+						"fieldName": "Acrobatics",
+						"fieldSize": "125px"
 					},
 					{
-						"Animal Handling": "125px"
+						"fieldName": "Animal Handling",
+						"fieldSize": "125px"
 					},
 					{
-						"Arcana": "125px"
+						"fieldName": "Arcana",
+						"fieldSize": "125px"
 					},
 					{
-						"Athletics": "125px"
+						"fieldName": "Athletics",
+						"fieldSize": "125px"
 					},
 					{
-						"Deception": "125px"
+						"fieldName": "Deception",
+						"fieldSize": "125px"
 					},
 					{
-						"History": "125px"
+						"fieldName": "History",
+						"fieldSize": "125px"
 					}
 				],
 				[
 					{
-						"Insight": "125px"
+						"fieldName": "Insight",
+						"fieldSize": "125px"
 					},
 					{
-						"Intimidation": "125px"
+						"fieldName": "Intimidation",
+						"fieldSize": "125px"
 					},
 					{
-						"Investigation": "125px"
+						"fieldName": "Investigation",
+						"fieldSize": "125px"
 					},
 					{
-						"Medicine": "125px"
+						"fieldName": "Medicine",
+						"fieldSize": "125px"
 					},
 					{
-						"Nature": "125px"
+						"fieldName": "Nature",
+						"fieldSize": "125px"
 					},
 					{
-						"Perception": "125px"
+						"fieldName": "Perception",
+						"fieldSize": "125px"
 					}
 				],
 				[
 					{
-						"Performance": "125px"
+						"fieldName": "Performance",
+						"fieldSize": "125px"
 					},
 					{
-						"Persuasion": "125px"
+						"fieldName": "Persuasion",
+						"fieldSize": "125px"
 					},
 					{
-						"Religion": "125px"
+						"fieldName": "Religion",
+						"fieldSize": "125px"
 					},
 					{
-						"Sleight of Hand": "125px"
+						"fieldName": "Sleight of Hand",
+						"fieldSize": "125px"
 					},
 					{
-						"Stealth": "125px"
+						"fieldName": "Stealth",
+						"fieldSize": "125px"
 					},
 					{
-						"Survival": "125px"
+						"fieldName": "Survival",
+						"fieldSize": "125px"
 					}
 				]
 			]
