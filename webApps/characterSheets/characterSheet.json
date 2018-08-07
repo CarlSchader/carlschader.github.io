@@ -72,7 +72,7 @@
 		},
 		{
 			"name": "Inspiration, Proficiency Bonus, and Passive Wisdom",
-			"unusedFieldCount": "2",
+			"unusedFieldCount": "3",
 			"row": [
 				[
 					{
@@ -81,7 +81,7 @@
 					},
 					{
 						"fieldName": "Proficiency Bonus",
-						"fieldSize": "250px"
+						"fieldSize": "300px"
 					},
 					{
 						"fieldName": "Passive Wisdom",
@@ -203,6 +203,58 @@
 						"fieldName": "Survival",
 						"fieldSize": "250px"
 					}
+				]
+			]
+		},
+		{
+			"name": "Combat Stats",
+			"unusedFieldCount": "4",
+			"row": [
+				[
+					{
+						"fieldName": "Armour Class",
+						"fieldSize": "250px"
+					},
+					{
+						"fieldName": "Initiative",
+						"fieldSize": "250px"
+					},
+					{
+						"fieldName": "Speed",
+						"fieldSize": "250px"
+					},
+					{
+						"fieldName": "Hit Points",
+						"fieldSize": "250px"
+					}
+				]
+			]
+		},
+		{
+			"name": "Equipment",
+			"unusedFieldCount": "5",
+			"row": [
+				[
+					{
+						"fieldName": "CP",
+						"fieldSize": "100px"
+					},
+					{
+						"fieldName": "SP",
+						"fieldSize": "100px"
+					},
+					{
+						"fieldName": "EP",
+						"fieldSize": "100px"
+					},
+					{
+						"fieldName": "GP",
+						"fieldSize": "100px"
+					},
+					{
+						"fieldName": "PP",
+						"fieldSize": "100px"
+					},
 				]
 			]
 		}
