@@ -45,27 +45,27 @@
 				[
 					{
 						"fieldName": "Strength",
-						"fieldSize": "150px"
+						"fieldSize": "200px"
 					},
 					{
 						"fieldName": "Dexterity",
-						"fieldSize": "150px"
+						"fieldSize": "200px"
 					},
 					{
 						"fieldName": "Constitution",
-						"fieldSize": "150px"
+						"fieldSize": "200px"
 					},
 					{
 						"fieldName": "Intelligence",
-						"fieldSize": "150px"
+						"fieldSize": "200px"
 					},
 					{
 						"fieldName": "Wisdom",
-						"fieldSize": "150px"
+						"fieldSize": "200px"
 					},
 					{
 						"fieldName": "Charisma",
-						"fieldSize": "150px"
+						"fieldSize": "200px"
 					}
 				]
 			]
@@ -77,15 +77,15 @@
 				[
 					{
 						"fieldName": "Inspiration",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					},
 					{
 						"fieldName": "Proficiency Bonus",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					},
 					{
 						"fieldName": "Passive Wisdom",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					}
 				]
 			]
@@ -97,27 +97,27 @@
 				[
 					{
 						"fieldName": "Strength",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					},
 					{
 						"fieldName": "Dexterity",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					},
 					{
 						"fieldName": "Constitution",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					},
 					{
 						"fieldName": "Intelligence",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					},
 					{
 						"fieldName": "Wisdom",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					},
 					{
 						"fieldName": "Charisma",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					}
 				]
 			]
@@ -129,79 +129,79 @@
 				[
 					{
 						"fieldName": "Acrobatics",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					},
 					{
 						"fieldName": "Animal Handling",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					},
 					{
 						"fieldName": "Arcana",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					},
 					{
 						"fieldName": "Athletics",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					},
 					{
 						"fieldName": "Deception",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					},
 					{
 						"fieldName": "History",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					}
 				],
 				[
 					{
 						"fieldName": "Insight",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					},
 					{
 						"fieldName": "Intimidation",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					},
 					{
 						"fieldName": "Investigation",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					},
 					{
 						"fieldName": "Medicine",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					},
 					{
 						"fieldName": "Nature",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					},
 					{
 						"fieldName": "Perception",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					}
 				],
 				[
 					{
 						"fieldName": "Performance",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					},
 					{
 						"fieldName": "Persuasion",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					},
 					{
 						"fieldName": "Religion",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					},
 					{
 						"fieldName": "Sleight of Hand",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					},
 					{
 						"fieldName": "Stealth",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					},
 					{
 						"fieldName": "Survival",
-						"fieldSize": "200px"
+						"fieldSize": "250px"
 					}
 				]
 			]
