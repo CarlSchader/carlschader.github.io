@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+    <link rel="stylesheet" type="text/css" href="../webApps/calculator/calculator.css">
+
+    <title>Carl Schader</title>
+  </head>
+  <body>
+
+  	<div id="top-of-page">
+  	<header>
+	  	<div id="pageHeader" class="container-fluid">
+	  		<h3>Carl Schader<span class="badge badge-secondary">Web Development</span></h3>
+	  	</div>
+	</header>
+
+		<nav>
+			<div class="container-fluid">
+				<nav class="nav nav-pills nav-justified justify-content-end">
+					<a class="nav-link" href="../index.html">Home</a>
+					<a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="../projects/deepLearning.html">Deep Learning</a>
+					      <a class="dropdown-item" href="../projects/mobileApplications.html">Mobile Applications</a>
+					      <a class="dropdown-item active" href="#">Web Development</a>
+					      <!-- <a class="dropdown-item" href="../projects/games.html">Games</a> -->
+					      <!-- <a class="dropdown-item" href="../projects/schoolProjects.html">School Projects</a> -->
+					      <!-- <a class="dropdown-item" href="../projects/more.html">More</a> -->
+					    </div>
+					<a class="nav-link" href="../university.html">University</a>
+					<!-- <a class="nav-link" href="../socialMedia.html">Social Media</a> -->
+					<a class="nav-link" href="../resume.html">Resume</a>
+				</nav>
+			</div>
+		</nav>
+	</div>
+
+	<div id="content-body" class="container-fluid">
+
+		<div class="card" style="width: 75%;">
+				<div class="card-header text-light bg-secondary">
+				    Personal Site
+				</div>
+			  <img class="card-img-top" src="../photos/personal site.png" alt="Website Image">
+			  <div class="card-body">
+			    <h5 class="card-title">Description</h5>
+			    <p class="card-text">This website is my first development project. The site allows anyone to see my open source projects. It also is a window into my university and my social media. I figure this would be the best platform to allow anyone interested to see what exactly I do.</p>
+			  </div>
+			  <div class="card-body">
+			  	<h5 class="card-title">Code</h5>
+			  	<p class="card-text">My website was built using the holy trinity of web development HTML, CSS, and Javascript. I also used twitter's bootstrap for faster development. check out the code on github:</p>
+			  	<a href="https://github.com/CarlSchader/carlschader.github.io" class="btn btn-primary">Github Link</a>
+			  </div>
+		</div>
+
+		<div id="webapp-calculator" class="card" style="width: 30%">
+			<div class="card-header text-light bg-secondary">
+				    Calculator (Usable)
+			</div>
+			<div class="card-body">
+				<span id="calculator-operation-store"></span><br>
+				<span id="calculator-display">0</span><br>
+				<p class="text-center"><button id="calculator-7" type="button" class="btn btn-info" style="width: 15%">7</button><button id="calculator-8" type="button" class="btn btn-info" style="width: 15%">8</button><button id="calculator-9" type="button" class="btn btn-info" style="width: 15%">9</button><button id="calculator-+" type="button" class="btn btn-primary" style="width: 15%">+</button></p>
+				<p class="text-center"><button id="calculator-4" type="button" class="btn btn-info" style="width: 15%">4</button><button id="calculator-5" type="button" class="btn btn-info" style="width: 15%">5</button><button id="calculator-6" type="button" class="btn btn-info" style="width: 15%">6</button><button id="calculator--" type="button" class="btn btn-primary" style="width: 15%">-</button></p>
+				<p class="text-center"><button id="calculator-1" type="button" class="btn btn-info" style="width: 15%">1</button><button id="calculator-2" type="button" class="btn btn-info" style="width: 15%">2</button><button id="calculator-3" type="button" class="btn btn-info" style="width: 15%">3</button><button id="calculator-x" type="button" class="btn btn-primary" style="width: 15%">x</button></p>
+				<p class="text-center"><button id="calculator-." type="button" class="btn btn-info" style="width: 15%">.</button><button id="calculator-0" type="button" class="btn btn-info" style="width: 15%">0</button><button id="calculator-(-)" type="button" class="btn btn-info" style="width: 15%">(-)</button><button id="calculator-/" type="button" class="btn btn-primary" style="width: 15%">&#247</button></p>
+				<p class="text-center"><button id="calculator-store" type="button" class="btn btn-secondary" style="width: 30%">store</button><button id="calculator-clr" type="button" class="btn btn-warning" style="width: 15%">clr</button><button id="calculator-=" type="button" class="btn btn-success" style="width: 15%">=</button></p>
+				<p id="calculator-store-display" class="card-text text-center"></p>
+				<p class="card-text">Check out the code on github:</p>
+				<a href="https://github.com/CarlSchader/WebApp-Calculator" class="btn btn-primary">Github Link</a>
+			</div>
+		</div>
+    <script type="text/javascript" src="../webApps/calculator/calculator.js"></script>
+
+	</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="../JavaScript/main.js"></script>
+  </body>
+</html>
